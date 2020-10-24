@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Simbelmawa.Data;
-using Simbelmawa.Models.Identity;
 
 namespace Simbelmawa.Identity
 {

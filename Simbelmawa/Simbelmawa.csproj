@@ -12,6 +12,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
   </ItemGroup>
@@ -25,6 +26,12 @@
     <Folder Include="Pages\PimpinanPT\" />
     <Folder Include="Pages\Reviewer\" />
     <Folder Include="Pages\OperatorPT\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Simbelmawa.Data\Simbelmawa.Data.csproj" />
+    <ProjectReference Include="..\Simbelmawa.Identity\Simbelmawa.Identity.csproj" />
+    <ProjectReference Include="..\Simbelmawa.Models\Simbelmawa.Models.csproj" />
   </ItemGroup>
 
 </Project>

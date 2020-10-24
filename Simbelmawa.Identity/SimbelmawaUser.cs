@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Simbelmawa.Models.PDPT;
 using Simbelmawa.Models.Pengguna;
 
-namespace Simbelmawa.Models.Identity
+namespace Simbelmawa.Identity
 {
     public class SimbelmawaUser : IdentityUser<Guid>
     {

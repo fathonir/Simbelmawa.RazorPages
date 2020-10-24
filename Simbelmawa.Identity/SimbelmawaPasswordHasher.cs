@@ -1,6 +1,5 @@
 using System;
 using Microsoft.AspNetCore.Identity;
-using Simbelmawa.Models.Identity;
 
 namespace Simbelmawa.Identity
 {

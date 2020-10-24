@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Simbelmawa.Models.Identity;
+using Simbelmawa.Identity;
 
 namespace Simbelmawa.Areas.Identity.Pages.Account
 {

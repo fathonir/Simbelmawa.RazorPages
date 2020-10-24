@@ -8,7 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 using Simbelmawa.Data;
 using Simbelmawa.Identity;
-using Simbelmawa.Models.Identity;
 using Simbelmawa.Models.Pengguna;
 
 [assembly: HostingStartup(typeof(Simbelmawa.Areas.Identity.IdentityHostingStartup))]
